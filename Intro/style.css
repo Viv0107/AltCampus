@@ -1,0 +1,13 @@
+h1{
+    color: red;
+    background-color: yellow;
+    font-size: 80px;
+    /*display: inline-block;*/
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: black;
+    background-color: burlywood;
+    /*display: inline block;*/
+    font-family: 'Times New Roman', Times, serif;
+}
