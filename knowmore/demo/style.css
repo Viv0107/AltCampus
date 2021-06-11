@@ -1,0 +1,12 @@
+img{
+    width: 1%;
+    height: auto;
+}
+button img{
+    width: 7%;
+    height: auto;
+}
+article img{
+    width: 50%;
+    height: auto;
+}
