@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color: rgb(248, 245, 240);
+    color:rgb(255, 255, 255);
+    font-family:Arial Narrow, sans-serif;
+
+}
+.main{
+    background-color: rgb(114, 147, 236,1);
+    margin: 20px 200px 0px 200px;
+    height: 350px;
+}
+.left{
+float: left;
+margin-top: 30px;
+margin-left: 50px;
+}
+
+.middle{
+
+	padding: 100px;
+	margin-left: 190px;
+	margin-right: 200px;
+    text-align: center;
+    height: 300px;
+
+}
+.right{
+float: right;
+margin-right: 50px;
+margin-top: 30px;
+
+
+}
+
+h1 {
+	margin-top: 60px;
+	font-size: 40px;
+	
+}
+p{
+	padding: 20px;
+	font-size: smaller;
+}
+a{
+    color:white;
+	text-decoration: 0;
+	padding: 10px;
+	font-weight: 0;
+}
+.white{
+	background-color: white;
+	margin-left: 200px;
+	margin-right: 200px;
+    height: 300px;
+}
+.subbox{
+	width: 150px;
+	height: 160px;
+	text-align: left;
+	display: inline-block;
+	
+	text-align: left;
+	
+	overflow:auto;
+	
+	
+}
+.subbox.one{
+	margin-top: 70px;
+	margin-left: 120px;
+	
+}
+.subbox.two{
+	margin-top: 70px;
+	margin-left: 160px;
+}
+.subbox.three{
+	margin-top: 70px;
+	
+	margin-left: 180px;
+	margin-right: 120px;
+}
+h2{
+	color:rgb(114, 147, 236,.8) ;
+}
+.white p{
+	text-align: left;
+	color: rgb(97, 91, 91,.4);
+	margin-top: 10px;
+	padding: 0px;
+}
+button{
+	background-color:rgb(114, 147, 236)  ;
+	border: 0;
+	height: 30px;
+	margin-top: 20px;
+}
+.big{
+	background-color: rgb(114, 147, 236);
+    margin: 0px 200px 0px 200px;
+	height: 420px;
+	text-align: center;
+	
+}
+ h3{
+	 font-size: 30px;
+	 padding: 30px;
+	 
+ }
+ 
+ .big p{
+	 padding: 0;
+ }
+ .rec{
+	 border: 1px solid rgb(248, 240, 240,.2);
+	 width: 150px;
+	 height: 220px;
+	 display: inline-block;
+	 margin-top: 50px;
+	 margin-left: 30px;
+	 text-align: center;
+ }
+ .rec img{
+	 width: 120px;
+	 height: 120px;
+	 border-radius: 50%;
+	 margin-top: 20px;
+
+ }
+ .footer{
+	background-color: white;
+	margin-left: 200px;
+	margin-right: 200px;
+	height: 550px;
+	text-align: center;
+	padding: 30px;
+	color: rgb(114, 147, 236);
+ }
+ .footone{
+	 display: inline-block;
+	 width: 300px;
+	 text-align: left;
+ }
+ .footone img{
+	 width: 300px;
+	 
+ }
